@@ -1,0 +1,42 @@
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+.box-header.with-border {
+    border-bottom: 1px solid #f4f4f4;
+}
+.box-header .box-title {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1;
+}
+.box-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 15px 0px;
+    /* background-color: #D2D6DE; */
+}
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.sbt-row{
+    width: 100%;
+    padding: 20px 0px;
+}
+.margin-rt{
+    margin-right:15px;
+}
+span{
+    font-size: 14px;
+padding-left: 10px;
+display: inline-block;
+font-weight: normal;
+color: #666;
+}
